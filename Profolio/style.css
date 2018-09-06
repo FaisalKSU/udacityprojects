@@ -1,0 +1,142 @@
+
+*,*:before,*:after{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+}
+img {
+  max-width: 100%;
+
+}
+/*https://www.lymcon.es/diseno-web/wordpress*/
+header {
+  background-image: url("./images/header_image.jpg");
+  background-size: cover;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.26);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+
+}
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top_title {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+  color: #60c1d0;
+}
+.udacity_logo {
+  width: 100px;
+  height:100px;
+  margin-left: 10px;
+
+}
+.intro {
+  width: 100%;
+  position: relative;
+  background-image: url("./images/responsive_image.jpg");
+  background-size: cover;
+  height: 40%;
+}
+
+.intro .about_me {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+  font-size: 12px;
+
+}
+h2, h3{
+	color: #60c1d0;
+}
+.project_header{
+	width: 100%;
+	text-align: center;
+
+}
+
+.item_title {
+	text-align: center;
+	padding: 10px 20px;
+
+}
+
+.item{
+
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+  padding: 1em;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 1.5em;
+}
+@media screen and (min-width: 550px) {
+    .items{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      justify-content: space-between;
+    }
+    .item {
+      margin: 0 10px 0 0;
+    }
+    .item:last-child {
+      margin: 0;
+    }
+    .item_img{
+	    position: relative;
+	    float: left;
+	    width: 400px;
+	    height: 300px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+

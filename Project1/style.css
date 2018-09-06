@@ -1,0 +1,188 @@
+/* Portfolio site */
+/* Global Styles */
+*,*:before,*:after{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+ body, html {
+  /* width: 100%;
+  height: auto;*/
+  font-family: 'Open Sans', sans-serif;
+  color: #424242;
+}
+/* Make images responsive accross board */
+img {
+ max-width: 100%;
+}
+
+h2, h3, p, a {
+	color: #717171;
+}
+/* .featured-img{
+  width:33.333%;
+} */
+/* End global style */
+/*
+ *
+ * Header
+ *
+ */
+ .name {
+ 	color: #60c1d0;
+   margin: 0;
+ }
+ .header-subtitle{
+   margin-bottom: 1em;
+ }
+ .header-title{
+   font-size: 25px;
+ }
+.header-container {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.26);
+  min-height: 56px;
+  width: 100%;
+  margin-bottom: 1em;
+}/*
+.header-logo {
+  height: 72px;
+  margin-left: 1em;
+}
+
+.header-title {
+  font-weight: bold;
+  font-size: 6vw;
+  margin: 0.5em 0.25em;
+  color: #212121;
+  text-align: right;
+}
+.header-subtitle{
+  font-size: 12px;
+  text-align: right;
+  margin-right: 1em;
+  padding-top: 0em;
+}
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}*
+.hero {
+  width: 100%;
+  /* position: relative; */
+  /* background-image: url("./images/dog.jpg"); */
+  /* background-size: cover;
+  height: 30%;
+}
+/**** Featured work section
+
+.featured-item{
+  margin-top: 30px 20px 20px 20px;
+}*/
+.header-container, .featured-hdr, .featured-item, .featured-work-title{
+text-align: center;
+}
+.logo{
+  width: 100px;
+  height:100px;
+  margin-left: 10px;
+  }/*
+.featured-hdr{
+  font-size: 3vw;
+}
+.featured-img-text{
+font-size: 2vw;
+}
+ *
+ * Footer
+ *
+
+*/
+footer {
+  margin-top: 15px;
+
+  width: 100%;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 1.5em;
+}
+/* Global font */
+
+
+/* End Global styling */
+
+@media screen and (min-width: 550px) {
+    .header-container, .wrapper{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      justify-content: space-between;
+    }
+    .name, .header-subtitle {
+      text-align: right;
+      padding: 0 15px;
+      font-size: 4vw;
+    }
+    /* .name{
+      padding: 1px 10px 1px 1px;
+    } */
+/* .header-container{
+  box-shadow: 0 0.8px 10px rgba(0, 0, 0, 0.26);
+  min-height: 56px;
+  width: 100%;
+  margin-bottom: 1em;
+} */
+    .featured-item {
+      margin: 0 10px 0 0;
+    }
+    .featured-item:last-child {
+      margin: 0;
+    }
+    .featured-work-title{
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+  }
+  /* .featured-img{
+    width: 100%;
+  }
+
+  .featured-container{
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .hero {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+*/
+@media screen and (min-width: 720px) {
+
+     .header-container{
+border-bottom: thin;
+margin-bottom: 10px;
+     }
+/* .wraper{
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+}
